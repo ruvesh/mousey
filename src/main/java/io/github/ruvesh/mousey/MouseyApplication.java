@@ -1,0 +1,13 @@
+package io.github.ruvesh.mousey;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MouseyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MouseyApplication.class, args);
+	}
+
+}
