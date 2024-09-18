@@ -13,7 +13,7 @@ A Mouse Robot, which does mousey things :p
 * git 
 
 ### Download source code
-git clone https://github.com/ruvesh/mousey.git
+``git clone https://github.com/ruvesh/mousey.git``
 OR
 download the zip file
 
