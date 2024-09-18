@@ -14,6 +14,10 @@ A Mouse Robot, which does mousey things :p
 
 ### Download source code
 git clone https://github.com/ruvesh/mousey.git
+OR
+download the zip file
+
+
 
 ### Navigate to the project directory
 ``cd /path/to/project/mousey``
@@ -25,7 +29,7 @@ git clone https://github.com/ruvesh/mousey.git
 ### Run Jar
 ``java -jar ./target/mousey-1.0.0.jar``
 
-# 2. Download the jar file and execute 
+## 2. Download the jar file and execute 
 
 ### Pre-requisites
 * Java 17 or higher
