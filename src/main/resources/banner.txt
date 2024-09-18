@@ -1,0 +1,11 @@
+:::::| :::::| :::::| :::::| :::::| :::::|
+             ) _     _
+            ( (^)-~-(^)
+        __,-.\_( 6 6 )__,-.___
+          'M'   \   /   'M'
+                 >o<     ${spring.application.name}
+
+Powered by Spring Boot ${spring-boot.formatted-version}
+https://github.com/ruvesh/mousey
+:::::| :::::| :::::| :::::| :::::| :::::|
+Type help for command list and usage
