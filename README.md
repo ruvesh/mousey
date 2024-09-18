@@ -15,7 +15,7 @@ A Mouse Robot, which does mousey things :p
 ### Download source code
 git clone https://github.com/ruvesh/mousey.git
 
-### Navigate to project directory
+### Navigate to the project directory
 ``cd /path/to/project/mousey``
 
 ### Build Jar
@@ -25,17 +25,16 @@ git clone https://github.com/ruvesh/mousey.git
 ### Run Jar
 ``java -jar ./target/mousey-1.0.0.jar``
 
-# 2. Download jar file and execute 
+# 2. Download the jar file and execute 
 
 ### Pre-requisites
 * Java 17 or higher
 
 ### Steps
-1. From the release section, download the latest version of the jar.
+1. Download the latest version of the jar from the release section.
 2. Navigate to the folder containing the downloaded jar file
 ``cd /path/to/jar/file``
-3. run the jar with ``java -jar mousey-${version}.jar``
-<i>**replace ${version} with version of the release. e.g. <b>mousey-1.0.0.jar</b></i>
+3. run the jar with ``java -jar mousey-${version}.jar`` <br/> <i>**replace ${version} with version of the release. e.g. <b>mousey-1.0.0.jar</b></i>
 
 ---
 
@@ -43,7 +42,7 @@ git clone https://github.com/ruvesh/mousey.git
 
 It's as simple as it gets:
 1. Fork the project
-2. Make contribution
+2. Make a contribution
 3. Raise PR to origin main
 4. Honor the License
 5. Have fun!
