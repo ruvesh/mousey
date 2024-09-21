@@ -1,5 +1,5 @@
 # mousey
-A Mouse Robot, which does mousey things :p
+An interactive CLI Mouse Robot, which does mousey things :p
 
 ---
 
@@ -50,5 +50,13 @@ It's as simple as it gets:
 3. Raise PR to origin main
 4. Honor the License
 5. Have fun!
+
+---
+
+# Tech Stack
+1. Spring Boot 3.3.3
+2. Spring Shell 3.3.2
+3. Java 17
+4. Maven 3.8
 
 ---
