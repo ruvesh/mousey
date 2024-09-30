@@ -3,8 +3,6 @@ package io.github.ruvesh.mousey.command;
 import io.github.ruvesh.mousey.process.MouseMoverProcess;
 import org.jline.reader.LineReader;
 import org.jline.terminal.Terminal;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.shell.context.InteractionMode;
 import org.springframework.shell.standard.*;
@@ -12,7 +10,6 @@ import org.springframework.shell.standard.*;
 @ShellComponent
 @ShellCommandGroup("Mouse Movement Commands")
 public class MouseMovementCommand  {
-    private static final Logger log = LoggerFactory.getLogger(MouseMoverProcess.class);
     private final LineReader lineReader;
     private final Terminal terminal;
 

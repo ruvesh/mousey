@@ -14,6 +14,8 @@ public class MouseMoverProcess implements Runnable {
     private final int delay;
     private final AtomicBoolean running = new AtomicBoolean(false);
 
+    private final Random random = new Random();
+
     public MouseMoverProcess(int delay) {
         this.delay = delay;
     }
@@ -36,7 +38,6 @@ public class MouseMoverProcess implements Runnable {
                     (int) Toolkit.getDefaultToolkit().getScreenSize().getWidth() / 2,
                     (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight() / 2
             );
-            Random random = new Random();
             while (running.get()){
                 mouseBot.mouseMove(random.nextInt(500), random.nextInt(500));
                 Thread.sleep(this.delay * 1000L);
